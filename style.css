@@ -70,6 +70,19 @@ footer {
   margin: 0 auto;
 }
 
+footer p {
+  font-size: 18px;
+  padding: 10px;
+}
+
+
+@media only screen and (max-width: 750px) {
+  footer p {
+    font-size: 24px;
+    opacity: 0.6;
+  }
+}
+
 .thinko {
   display: block;
   margin: 100px auto;
