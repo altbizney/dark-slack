@@ -68,3 +68,14 @@ footer {
   text-align: center;
   margin: 0 auto;
 }
+
+.thinko {
+  display: block;
+  margin: 100px auto;
+  width: 120px;
+  opacity: 0.4;
+}
+
+.thinko:hover {
+  opacity: 0.6;
+}
