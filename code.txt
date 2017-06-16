@@ -1,0 +1,2 @@
+
+/*[[ADDED BY SLACK2.COM]]*/ document.addEventListener('DOMContentLoaded', function() { $.ajax({ url: 'https://rawgit.com/yothinko/slack2/master/dark-slack.css?' + Date.now(), success: function(css) { $('<style></style>').appendTo('head').html(css); } }); });
