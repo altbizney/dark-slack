@@ -17,7 +17,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-bottom: 100px;
+  padding: 50px 0;
 }
 
 a {
@@ -30,6 +30,13 @@ a {
   height: auto;
   margin: 100px auto;
 }
+
+h1 {
+  color: white;
+  font-size: 80px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
 h2 {
   color: #fff;
   text-align: center;
@@ -41,17 +48,23 @@ h3 {
   font-size: 25px;
 }
 .instructions {
-  margin: 100px auto;
+  margin: 100px auto 100px auto;
   display: block;
   text-align: center;
 }
 
 .instructions .command {
-  margin: 0 auto;
+  margin: auto;
   padding: 10px;
   border-radius: 5px;
   display: block;
   color: white;
+  width: 90vw;
   max-width: 600px;
   background-color: rgba(0,0,0,0.5);
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
 }
