@@ -54,6 +54,7 @@ h3 {
 }
 
 .instructions .command {
+  font-family: "Menlo", monospace;
   margin: auto;
   padding: 10px;
   border-radius: 5px;
