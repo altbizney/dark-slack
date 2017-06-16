@@ -1,0 +1,57 @@
+@import "reset.css";
+
+html {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67016d+0,cd0277+52,f75458+100 */
+  background: #67016d; /* Old browsers */
+  background: -moz-linear-gradient(top, #67016d 0%, #cd0277 52%, #f75458 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #67016d 0%,#cd0277 52%,#f75458 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #67016d 0%,#cd0277 52%,#f75458 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67016d', endColorstr='#f75458',GradientType=0 ); /* IE6-9 */:
+  height: 100%;
+  background-attachment: fixed;
+}
+
+
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom: 100px;
+}
+
+a {
+  color: #F1E374;
+}
+.screenshot {
+  display: block;
+  width: 80vw;
+  max-width: 1280px;
+  height: auto;
+  margin: 100px auto;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+h3 {
+  font-size: 25px;
+}
+.instructions {
+  margin: 100px auto;
+  display: block;
+  text-align: center;
+}
+
+.instructions .command {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  max-width: 600px;
+  background-color: rgba(0,0,0,0.5);
+}
